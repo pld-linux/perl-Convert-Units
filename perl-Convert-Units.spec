@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Convert
-%define	pnam	Units
+%define		pdir	Convert
+%define		pnam	Units
 Summary:	Convert::Units::* - objects for performing unit conversions
 Summary(pl):	Convert::Units::* - obiekty do przeliczania jednostek
 Name:		perl-Convert-Units
