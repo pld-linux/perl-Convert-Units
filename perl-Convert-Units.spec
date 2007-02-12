@@ -6,7 +6,7 @@
 %define		pdir	Convert
 %define		pnam	Units
 Summary:	Convert::Units::* - objects for performing unit conversions
-Summary(pl):	Convert::Units::* - obiekty do przeliczania jednostek
+Summary(pl.UTF-8):   Convert::Units::* - obiekty do przeliczania jednostek
 Name:		perl-Convert-Units
 Version:	0.43
 Release:	1
@@ -28,14 +28,14 @@ to some other unit (such as "picas" or "inches").
 It uses a base package (Units::Base) which does the dirty work. Other
 modules define what units they handle and how they are related.
 
-%description -l pl
-Pakiet Units to zbiór modu³ów do przetwarzania ³añcuchów zawieraj±cych
-jednostki miar (takich jak "12pt" czy "3 meters") i konwertuj±cych je
+%description -l pl.UTF-8
+Pakiet Units to zbiÃ³r moduÅ‚Ã³w do przetwarzania Å‚aÅ„cuchÃ³w zawierajÄ…cych
+jednostki miar (takich jak "12pt" czy "3 meters") i konwertujÄ…cych je
 do innych jednostek (takich jak "picas" czy "inches").
 
-Pakiet u¿ywa podstawowego modu³u (Units::Base), który wykonuje
-w³a¶ciw± robotê. Inne modu³y definiuj± które jednostki mog± obs³u¿yæ i
-jak s± miêdzy sob± powi±zane.
+Pakiet uÅ¼ywa podstawowego moduÅ‚u (Units::Base), ktÃ³ry wykonuje
+wÅ‚aÅ›ciwÄ… robotÄ™. Inne moduÅ‚y definiujÄ… ktÃ³re jednostki mogÄ… obsÅ‚uÅ¼yÄ‡ i
+jak sÄ… miÄ™dzy sobÄ… powiÄ…zane.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
