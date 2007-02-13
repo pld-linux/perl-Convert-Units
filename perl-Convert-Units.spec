@@ -6,7 +6,7 @@
 %define		pdir	Convert
 %define		pnam	Units
 Summary:	Convert::Units::* - objects for performing unit conversions
-Summary(pl.UTF-8):   Convert::Units::* - obiekty do przeliczania jednostek
+Summary(pl.UTF-8):	Convert::Units::* - obiekty do przeliczania jednostek
 Name:		perl-Convert-Units
 Version:	0.43
 Release:	1
