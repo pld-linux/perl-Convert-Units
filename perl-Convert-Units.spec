@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Convert
 %define		pnam	Units
+%include	/usr/lib/rpm/macros.perl
 Summary:	Convert::Units::* - objects for performing unit conversions
 Summary(pl.UTF-8):	Convert::Units::* - obiekty do przeliczania jednostek
 Name:		perl-Convert-Units
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	4fa0ccd591bac873b8d0f32771699b3d
+URL:		http://search.cpan.org/dist/Convert-Units/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
