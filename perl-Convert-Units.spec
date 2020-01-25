@@ -4,7 +4,6 @@
 
 %define		pdir	Convert
 %define		pnam	Units
-%include	/usr/lib/rpm/macros.perl
 Summary:	Convert::Units::* - objects for performing unit conversions
 Summary(pl.UTF-8):	Convert::Units::* - obiekty do przeliczania jednostek
 Name:		perl-Convert-Units
