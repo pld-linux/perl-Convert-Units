@@ -8,7 +8,7 @@ Summary:	Convert::Units::* - objects for performing unit conversions
 Summary(pl.UTF-8):	Convert::Units::* - obiekty do przeliczania jednostek
 Name:		perl-Convert-Units
 Version:	0.43
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
